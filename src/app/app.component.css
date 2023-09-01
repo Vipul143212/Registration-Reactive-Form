@@ -1,0 +1,88 @@
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  /* Style for the form background */
+  .form-bg {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  /* Style for panel */
+  .panel-primary {
+    border: none;
+    background-color: #f7f7f7;
+  }
+  
+  .panel-heading {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .panel-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .panel-body {
+    padding: 20px;
+  }
+  
+  .panel-footer {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: right;
+  }
+  
+  /* Style for form group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for input fields */
+  .form-control {
+    width: 93%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #337ab7;
+    outline: none;
+  }
+  
+  /* Style for submit button */
+  .btn-primary {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #286090;
+  }
+  
+  
